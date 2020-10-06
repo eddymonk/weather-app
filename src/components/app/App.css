@@ -1,0 +1,25 @@
+*{
+  margin: 0;
+}
+
+
+.app{
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  align-items: center;
+  width: 60vw;
+  height: 90vh;
+  min-height: 500px;
+  min-width: 450px;
+  margin: auto;
+  margin-top: 40px;
+  padding: 20px;
+  border: 1px solid lightgray;
+  border-radius: 20px;
+  box-shadow: 0 4px 60px rgba(0, 0, 0, 0.1);
+}
+
+.app > h2{
+  color: rgb(46, 99, 212);
+}

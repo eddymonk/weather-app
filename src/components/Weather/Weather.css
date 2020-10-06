@@ -1,0 +1,19 @@
+.weather{
+ display: flex;
+ justify-content: center;
+ flex-direction: column;
+ align-items: center;
+ height: 200px;
+ min-height: 200px;
+ width: 260px;
+ border: 1px solid lightgray;
+ padding: 20px;
+ margin-top: 40px;
+ border-radius: 20px;
+ box-shadow: 0 4px 60px rgba(0, 0, 0, 0.1);
+ transition: .5s;
+}
+
+.weather:hover{
+ transform: scale(1.1);
+}
